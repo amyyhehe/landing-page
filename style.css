@@ -1,0 +1,98 @@
+* { 
+    margin:0px;
+}
+
+a {
+    text-decoration:none;
+    color:grey;
+
+}
+
+.background_img {
+    height:500px;
+    background-image: url("img/bright-close-up-colors-876333.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#navbar {
+    background-color:rgba(0,0,0,0.01);
+    display:flex;
+    justify-content:flex-end;
+    font-size:20px;
+    padding-right:30px;
+    padding-left:30px;
+}
+
+.navigation-items {
+    list-style:none;
+    display:flex;
+    flex-direction:row;
+
+}
+
+#about-list-item {
+    margin: 10px;
+}
+
+#contact-list-item {
+    margin: 10px;
+}
+
+#blog-list-item {
+    margin: 10px;
+}
+
+.first_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    height:50%;
+    
+}
+
+.title-1 {
+    margin:10px;
+    color:grey;
+    font-size:60px;
+}
+
+.title-2 {
+    margin:10px;
+    color:grey;
+    font-size:30px;
+}
+
+#about-title{
+    color:black;
+}
+
+li {
+    color:black;
+}
+
+h3 {
+    color:black;
+}
+
+.second_section {
+    height:10%;
+}
+
+#aboutme {
+    display:flex;
+    justify-content:center;
+    margin:20px;
+    padding-bottom: 40px;
+    font-size:25px;
+}
+
+.skills-interests-container {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    height:20%
+}
+
